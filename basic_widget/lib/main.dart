@@ -1,7 +1,5 @@
 
-
-import 'package:basic_widget/stack_alertdialogue_form/stack_alertdialogue_form.dart';
-
+import 'package:basic_widget/all_widgets/aspect_ratio.dart';
 
 
 import 'package:flutter/material.dart';
@@ -18,8 +16,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      color: Colors.grey,
       debugShowCheckedModeBanner: false,
-          home: StackAlertdialogueForm(),
+          home: Aspect_Ration(),
     );
   }
 }
